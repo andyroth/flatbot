@@ -21,4 +21,5 @@
 "lmgtfy.coffee",
 "redis-brain.coffee",
 "shipit.coffee",
-"wunderground.coffee"]
+"wunderground.coffee",
+"zen.coffee"]
