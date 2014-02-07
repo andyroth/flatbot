@@ -19,7 +19,10 @@
 "isup.coffee",
 "kittens.coffee",
 "lmgtfy.coffee",
+"quote.coffee",
 "redis-brain.coffee",
 "shipit.coffee",
 "wunderground.coffee",
+"wwls.coffee",
+"yoda-quotes.coffee",
 "zen.coffee"]
