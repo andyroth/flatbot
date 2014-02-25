@@ -40,7 +40,7 @@ module.exports = (robot) ->
             response = response.replace /&apos;/g, "'"
             response = response.replace /&lt;/g, '<'
             response = response.replace /&gt;/g, '>'
-            response = response.replace /<br>/g, ""
+            response = response.replace /<br>/g, "\n"
             msg.reply response
           else
             msg.reply "I am too sleepy to chat."
