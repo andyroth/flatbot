@@ -14,7 +14,7 @@
 #   drosile
 
 module.exports = (robot) ->
-  robot.hear "flatboat", (msg) ->
+  robot.hear /(^|\W)flatboat(\z|\W|$)/i, (msg) ->
     imageMe msg, "flat boat", (url) ->
       msg.send url
 

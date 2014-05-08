@@ -14,6 +14,5 @@
 # drosile@gmail.com
 module.exports = (robot) ->
 
-  robot.respond /fortune|cookie me/i, (msg) ->
-  robot.hear "zune", (msg) ->
+  robot.hear /(^|\W)zune(\z|\W|$)/i, (msg) ->
     msg.reply "Did somebody say ZUNE?!?! Get in here, @BrianPhillips!"
