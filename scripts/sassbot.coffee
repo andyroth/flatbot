@@ -27,6 +27,9 @@ module.exports = (robot) ->
 
   robot.hear /(^|\W)scrum(\z|\W|$)/i, (msg) ->
     msg.send "http://media.giphy.com/media/bdQzj73IMMtq0/giphy.gif"
+    
+  robot.hear /(^|\W)soul(\z|\W|$)/i, (msg) ->
+    msg.send "http://stream1.gifsoup.com/view7/2892866/james-brown-o.gif"
 
   robot.hear /(^|\W)zune(\z|\W|$)/i, (msg) ->
     msg.reply "Did somebody say ZUNE?!?! Get in here, @BrianPhillips!"
